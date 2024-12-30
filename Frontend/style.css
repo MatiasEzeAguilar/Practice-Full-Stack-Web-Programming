@@ -1,0 +1,232 @@
+body {
+  background: linear-gradient(to bottom, rgb(194, 194, 10), rgb(196, 138, 31));
+  height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
+}
+
+p {
+  padding: 10px;
+  margin: 0%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-color: rgb(113, 19, 202);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(113, 19, 202);
+  display: block;
+  width: 100%;
+}
+
+.nav-item {
+  padding: 20px 10px;
+}
+
+.nav-item:hover {
+  background-color: rgb(124, 39, 204);
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.dropbtn {
+  background-color: rgb(113, 19, 202);
+  color: white;
+  padding: 20px 10px;
+}
+
+.dropbtn:hover {
+  background-color: rgb(124, 39, 204);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(113, 19, 202);
+  min-width: 150px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.drop-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.drop-options .dropbtn .dark-btn {
+  padding: 10px;
+  width: 100%;
+}
+
+.drop-options label {
+  font: inherit;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  font-size: 8pt;
+}
+
+.news-card {
+  background-color: white;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  text-align: center;
+  height: 330px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.news-card a {
+  color: black;
+}
+
+.news-card img {
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.news-card:hover {
+  scale: 1.1;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content p {
+  color: rgb(238, 238, 238);
+  font-size: 14pt;
+  margin: 0%;
+}
+
+.dark-theme {
+  background-color: rgb(40, 40, 40);
+}
+
+.dark-body {
+  background: linear-gradient(to bottom, rgb(202, 202, 199), rgb(97, 97, 97));
+}
+
+.dark-item {
+  padding: 20px 10px;
+}
+
+.dark-item:hover {
+  background-color: rgb(75, 75, 75);
+}
+
+.dark-btn {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  padding: 20px 10px;
+}
+
+.dark-btn:hover {
+  background-color: rgb(75, 75, 75);
+}
+
+.dark-dropdown {
+  display: none;
+  position: absolute;
+  background-color: rgb(40, 40, 40);
+  min-width: 150px;
+  z-index: 1;
+}
+
+.dropdown:hover .dark-dropdown {
+  display: block;
+}
+
+#suite-iso {
+  display: flex;
+  align-items: center;
+}
+
+#suite-iso img {
+  width: 30px;
+  padding: 10px 0px;
+  padding-left: 20px;
+  margin: 0px;
+}
+
+#container-news {
+  padding: 0px 20px;
+  margin: 28px 0px;
+}
+
+#container-news h2 {
+  background-color: rgb(113, 19, 202);
+  padding: 10px;
+  margin: 0%;
+  color: white;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#container-cards {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 5px solid rgb(113, 19, 202);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#networks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0%;
+  padding: 10px;
+}
+
+#suite-logo img {
+  width: 150px;
+  padding: 10px;
+}
